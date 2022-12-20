@@ -1,6 +1,6 @@
 # gittt
 
-## Comandos usados: 
+## Comandos y pasos a seguir: 
 1. Tras crear los archivo hola.txt y git.txt inicializamos el repositorio con `git init`
 2. Tras hacer eso, añadimos los archivos, en este caso como en la carpeta solo hay 2 archivos podemos hacer `git add  .`. Si hubiera más archivos que no querríamos añadir pero queremos añadir todo habría que crear un archivo .gitignore
 3. Ahora hacemos el commit de ambos archivos con `git commit -m "Mensaje"`
