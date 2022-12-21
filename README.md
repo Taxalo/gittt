@@ -8,3 +8,6 @@
 5. Ahora definimos el remote, es decir, la URL del repo (https://github.com/Taxalo/gittt). Esto es necesario para pushear. Y ponemos la branch como main (aunque ya la tenemos por defecto) usamos `git remote add origin https://github.com/Taxalo/gittt` y después `git branch -M main` para definir la rama.
 6. Ya que hemos creado un archivo readme.md debemos hacer un pull ignorando los errores. Para esto usamos `git pull origin main --alow-unrelated-histories`
 7. Ahora hacemos el push con `git push -u origin main`
+
+## Otros:
+> `git clone [url]` clona un repositorio remoto para tenerlo como local.
