@@ -16,3 +16,4 @@
 
 1. Se puede usar el comando `git diff` para ver la diferencia entre dos origenes o ramas o con respecto a la última versión guardada de nuestro repositorio.
 2. Se puede usar el comando `git show` para ver aún más detalles sobre commits o ramas.
+3. El comando `git annotate (fichero)` se puede usar para ver quien ha hecho cambios sobre un archivo.
