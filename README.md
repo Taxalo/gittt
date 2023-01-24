@@ -17,3 +17,12 @@
 1. Se puede usar el comando `git diff` para ver la diferencia entre dos origenes o ramas o con respecto a la última versión guardada de nuestro repositorio.
 2. Se puede usar el comando `git show` para ver aún más detalles sobre commits o ramas.
 3. El comando `git annotate (fichero)` se puede usar para ver quien ha hecho cambios sobre un archivo.
+
+## PRACTICA 4:
+
+1. El comando `git checkout` se puede utilizar para deshacer los cambios realizados, volviendo a la versión que estaba en el repositorio. Para eso se necesita especificarela rchivo que queremos hacer volver a su estado del respositorio con `git checkout -- (archivo)` o `git checkout -- . ` para todos los de la carpeta. 
+2. El comando `git restore stage` para deshacer un git add o hacer simplemente `git restore (archivo)` para deshacer los cambios que hicimos a un archivo.
+3. El comando `git reset` sirve para borrar cambios en diferentes partes, se puede especificar el archivo y la versión a la que resetear. Tiene 3 posibles atributos (principales) siendo estos:
+    > `--soft` El cual reseteará los cambios en el HEAD, es decir, el commit.
+    > `--mixed` que borrará el commit y el git add
+    > `--hard` que borrará elc ommit, el git add y los cambios en nuestro repositorio local.
