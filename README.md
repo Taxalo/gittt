@@ -26,3 +26,11 @@
     > `--soft` El cual reseteará los cambios en el HEAD, es decir, el commit.
     > `--mixed` que borrará el commit y el git add
     > `--hard` que borrará elc ommit, el git add y los cambios en nuestro repositorio local.
+
+## PRACTICA 5:
+
+1. El comando `git branch (nombre_branch)` sirve para crear una rama nueva, que es básicamente una especie de puntero desde el último commit hecho.
+    > `git branch -av` indicará una lista de ramas.
+    > `git branch -d (nombre_branch)` eliminará la rama especificada.
+2. El comando `git checkout (nombre_branch)` cambiará la branch actual a la especificada.
+3. El comando `git merge (nombre_branch)` mergeará (unirá, juntará...) la rama especificada con la actual.
